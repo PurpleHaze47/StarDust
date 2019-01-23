@@ -1,0 +1,26 @@
+<!DOCTYPE html><html><head><title></title><link rel="stylesheet" type="text/css" href="code.css">
+<link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+
+
+</head>
+<body onload="backgroun()">
+	<script type="text/javascript">
+		function backgroun(){
+			var container = document.getElementsByClassName("a");
+			for (var i = 0; i < 500 ; i++) {
+   				container[0].innerHTML += '<div class="rain"></div>';
+   			}
+		}
+	</script>
+
+<div class="a">	<!--- Rain ---> </div>
+
+<!--------------- Overlap the background---------------->
+
+<div style="position: relative;height: 50px;width: 100%;background: transparent;color: white">
+	
+	<div style="width:100%;margin-top: 150px; text-align: center; font-family:'Audiowide' ; font-size: 42px"> ABCDEFGHIJKLMNOPQRSTUVWXYZ </div>
+
+</div>
+
+</body></html>
